@@ -1,0 +1,215 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+  
+ 
+.btn-register, .btn-check:active+.btn-light, .btn-check:checked+.btn-light, .btn-light.active, .btn-light:active, .show>.btn-light.dropdown-toggle{
+    background-color: #60CBCC;
+    color: white;
+}
+
+#Wrapper{
+    background:url(../images/banner.jpg); 
+    width:90%; 
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 0% 5%;
+}
+
+#Content{
+    background-color:rgba(60, 192, 194, 0.4) ; 
+    width:100%; 
+    height:100%;
+    text-align: center;
+    color: white; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card-body{
+    justify-content: center; 
+    align-items: center;
+}
+
+.selected,.active{
+    color: #EC832E;
+}
+.selected > .readMore{
+    color: #EC832E;
+    text-decoration: none;
+}
+
+.selected > .readMore:hover{
+    color:  #60CBCC;
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0% 10%;
+}
+
+.articleImg{
+    width: 100%;
+    border-radius: 1%;
+}
+
+.articleImg, .articleContent, .authDate{
+    margin: 0 0 25px 0;
+}
+.recPostsImg{
+    width: 100%;
+    border-radius: 5%;
+}
+#articles{
+    margin-top: 80px;
+}
+#recentPosts{
+    margin-top: 80px;
+}
+.recentPost{
+    padding-bottom: 15px;
+    justify-content: center; 
+    align-items: center; 
+}
+.nav-center{
+    
+    justify-content: center; 
+    align-items: center; 
+    font-weight: 500;
+}
+.nav-button{
+    color: #333333;
+}
+.big-btn {
+   min-width: 110px;
+}
+.faintFont{
+    font-weight: 300; 
+    font-size: small;
+}
+h6{
+    color: gray;
+}
+p{
+    color:#555555;
+}
+.ad{
+    width: 380px;
+    height: 380px; 
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+}
+.subscribe{
+    background-color: #F7F7F7;
+    justify-content: center; 
+    align-items: center; 
+   
+    max-height: 300px;
+    margin: 5% 10%;
+    padding:2% 5%;
+    width: 80%;
+    border-radius: 1%;
+    font-weight: 800;
+}
+#more {display: none;}
+#footer{
+    text-align: left;
+    padding-bottom: 7%;
+}
+
+.quickLinks a, .socialLinks a{
+    color: black;
+    text-decoration: none;
+}
+  #copyRights{
+    text-align: center;
+  }
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  .pagination > li > a
+  {
+      background-color: white;
+      color: #60CBCC;
+  }
+  
+  .pagination > li > a:focus,
+  .pagination > li > a:hover,
+  .pagination > li > span:focus,
+  .pagination > li > span:hover
+  {
+      color:#60CBCC;
+      background-color: #eee;
+      border-color: #ddd;
+  }
+  
+  .pagination > .active > a
+  {
+      color: white;
+      background-color: #60CBCC;
+      border: solid 1px #60CBCC;
+  }
+  
+  .pagination > .active > a:hover
+  {
+      background-color: #60CBCC;
+      border: solid 1px #60CBCC;
+  }
+  .blueText{
+      color:#2E4751;
+  }
+
+  .botSection {
+    position: relative;
+  }
+  .copyRightsDiv,
+  .langs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+   right: 0;
+  }
+  .langs {
+      width: 15%;
+    z-index: 10;
+  }
+  .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99%;
+    padding: 0;
+  }
+ .registForm{
+     padding-top: 0  ;
+     padding-bottom: 0;
+ }
+  @media only screen and (max-width: 1200px) {
+    body{
+      font-size: larger;
+    }
+    .subs{
+        align-items: center;
+        justify-content: center;
+       }
+       .registImg{
+           display: none;
+       }
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #seperator{
+     display: none;
+    }
+  
+  }
